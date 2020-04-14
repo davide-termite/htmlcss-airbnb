@@ -38,6 +38,8 @@
 
 /* Text Design */
 h1 {
+  font-family: sans-serif;
+  text-decoration: none;
   text-transform: uppercase;
   color: white;
   text-shadow: 5px 3px rgba(0,0,0,0.5);

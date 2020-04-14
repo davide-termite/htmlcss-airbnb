@@ -1,0 +1,63 @@
+/* Reset Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Reset Rules */
+
+/* Containers Design */
+.main-wrapper {
+  width: 100%;
+  padding: 10px;
+}
+.main-wrapper .container {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 5px 3px rgba(0,0,0,0.5);
+}
+.main-wrapper .container:last-child{
+  margin-bottom: 0;
+}
+/* Backgrounds */
+.milano {
+  background-image: url(../img/milano.jpg);
+}
+.napoli {
+  background-image: url(../img/napoli.jpg);
+}
+.roma {
+  background-image: url(../img/roma.jpg);
+}
+/* End Containers Design */
+
+/* Text Design */
+h1 {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 5px 3px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* End Text Design */
+
+/* Filter & Hover Design */
+.filter {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+.filter:hover {
+  background-color: rgba(0,0,0,0);
+}
+h1:hover {
+  font-size: 25px;
+}
+/* End Filter & Hover Design */
